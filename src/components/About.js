@@ -1,4 +1,7 @@
+// src/components/About.js
+
 import React from "react";
+import { image } from "./information.js"; // adjust path if needed
 
 function About() {
   return (
@@ -9,3 +12,5 @@ function About() {
     </div>
   );
 }
+
+export default About;
